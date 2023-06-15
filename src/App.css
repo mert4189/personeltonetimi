@@ -1,0 +1,178 @@
+
+
+#button{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+#button1{
+  margin-left:13%;
+  margin-top: 2%;
+}
+#button2{
+  margin-left:13%;
+  margin-top: 2%;
+}
+#button3{
+  margin-left:23%;
+  margin-top: 2%;
+}
+.container1{
+  margin-top: 25%;
+}
+.arama{
+  margin-left:38%;
+  margin-top: 8%;
+}
+#button4{
+  margin-left: 33%;
+  margin-top: 2%;
+}
+.tabloyapı{
+  margin-top: 100px;
+  max-width: 1200px;
+  margin-left: 20%;
+  
+}
+
+
+.table-hover tbody tr:hover {
+  background-color: #3b3939;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.navbar:hover {
+  background-color: gray;
+}
+#loader {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top-color: #3498db;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+body{
+
+  background: #d1d5db;
+}
+
+.height{
+
+  height: 90px;
+}
+
+.form{
+
+  position: relative;
+}
+
+.form .fa-search{
+
+  position: absolute;
+  top:20px;
+  left: 20px;
+  color: #9ca3af;
+
+}
+
+.form span{
+
+      position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+  padding-left: 7px;
+}
+
+.left-pan i{
+ 
+ padding-left: 10px;
+}
+
+.form-input{
+
+  height: 40px;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+
+.form-input:focus{
+
+  box-shadow: none;
+  border:none;
+}
+.tabloyapı::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+.tabloyapı::-webkit-scrollbar-thumb {
+  
+  background-color: #A9A9A9;
+}
+
+.container2 {
+  position: relative;
+}
+
+.fade-enter {
+  opacity: 1;
+  transform: translateX(20px);
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 300ms, transform 300ms;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
